@@ -30,6 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (window.innerWidth < 768) {
         document.getElementById('toggle_sidebar').classList.add('offcanvas');
     }
+
+    if (localStorage.getItem('toListingDetails') === 'true') {
+        localStorage.removeItem('toListingDetails');
+        showDetails({}, 'details');
+    }
     addAnimations();
 });
 

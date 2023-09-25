@@ -168,6 +168,11 @@ input:focus {
     height: fit-content;
 }
 
+.container-fluid #content #listing_table > a {
+    color: #3745BE;
+    text-decoration: underline;
+}
+
 .container-fluid #content #listing_table #table_header,
 .container-fluid #content #listing_table #table_value {
     background: #09338F;
@@ -187,6 +192,11 @@ input:focus {
 .container-fluid #content #listing_table #table_value button {
     border: none;
     background: none;
+}
+
+.container-fluid #content #listing_table #table_value a {
+    text-decoration: underline;
+    color: #17984A;
 }
 
 .container-fluid #content #auction_details .box {
