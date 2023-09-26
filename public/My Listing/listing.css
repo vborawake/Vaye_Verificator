@@ -161,6 +161,22 @@ button.disabled {
     border: none;
 }
 
+.container-fluid .popup > button {
+    width: fit-content;
+    background: linear-gradient(180deg, #4074ED 0%, #234391 100%);
+    padding: 0.8rem 2rem;
+    border-radius: 0.6rem;
+    margin-left: 16.68%;
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+    transition: transform 0.5s ease;
+}
+
+.container-fluid .popup > button:hover {
+    transform: scale(0.95);
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     html {
         font-size: 14px;
